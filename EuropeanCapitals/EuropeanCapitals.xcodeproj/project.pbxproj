@@ -26,6 +26,7 @@
 		32B926B224E80C5E006F3FC2 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B926B124E80C5E006F3FC2 /* APIResult.swift */; };
 		32B926B824E80C6E006F3FC2 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B926B724E80C6E006F3FC2 /* APIError.swift */; };
 		32B926BE24E80CBE006F3FC2 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B926BD24E80CBE006F3FC2 /* ImageCache.swift */; };
+		32B926C424EC3A1F006F3FC2 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32B926C324EC3A1F006F3FC2 /* Lato-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		32B926B124E80C5E006F3FC2 /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
 		32B926B724E80C6E006F3FC2 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		32B926BD24E80CBE006F3FC2 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		32B926C324EC3A1F006F3FC2 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				32B9266624E2F64E006F3FC2 /* AppCoordinator.swift */,
 				32B9266B24E80668006F3FC2 /* AppString.swift */,
 				32B9267024E806CD006F3FC2 /* API */,
+				32B926C224EC393D006F3FC2 /* Font */,
 				32B9262824E2F1DD006F3FC2 /* Assets.xcassets */,
 				32B9262A24E2F1DD006F3FC2 /* LaunchScreen.storyboard */,
 				32B9262D24E2F1DD006F3FC2 /* Info.plist */,
@@ -207,6 +210,14 @@
 				32B926BD24E80CBE006F3FC2 /* ImageCache.swift */,
 			);
 			path = "Image Cache";
+			sourceTree = "<group>";
+		};
+		32B926C224EC393D006F3FC2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				32B926C324EC3A1F006F3FC2 /* Lato-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32B9262C24E2F1DD006F3FC2 /* LaunchScreen.storyboard in Resources */,
+				32B926C424EC3A1F006F3FC2 /* Lato-Regular.ttf in Resources */,
 				32B9262924E2F1DD006F3FC2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
