@@ -8,5 +8,5 @@
 import Foundation
 
 protocol APIClientProtocol {
-    func request<T:Decodable>(target: APIResourceProtocol, type: T.Type, completion: @escaping (APIResult<T>) -> Void)
+    func request<T:Decodable>(target: APIResource, type: T.Type, completion: @escaping (APIResult<T>) -> Void)
 }
