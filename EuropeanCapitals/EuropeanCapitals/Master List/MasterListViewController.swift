@@ -11,12 +11,17 @@ protocol MasterListViewControllerDelegate: class {
     func masterListViewControllerDelegateDidSelectCapital(_ capital: Capital)
 }
 
-final class MasterListViewController: UIViewController {
+final class MasterListViewController: NiblessViewController {
     private let tableView: UITableView = UITableView()
     
     weak var delegate: MasterListViewControllerDelegate?
     
     private var viewModel: MasterListViewModel!
+    
+    init(with viewModel: MasterListViewModel) {
+        super.init()
+        self.viewModel = viewModel
+    }
     
     override func loadView() {
         super.loadView()

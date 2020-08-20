@@ -27,6 +27,8 @@ class AppCoordinator: CoordinatorProtocol {
     func start() {
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
+        
+        showMasterListViewController()
     }
     
     func start(on window: UIWindow?) {
@@ -36,5 +38,17 @@ class AppCoordinator: CoordinatorProtocol {
         
         self.window = window
         start()
+    }
+    
+    func showMasterListViewController() {
+        /// Initialize viewModel
+        let viewModel = MasterListViewModel()
+
+        /// Initialize viewController and inject viewModel
+        let viewController = MasterListViewController(with: viewModel)
+        viewController.delegate = self
+        
+        /// Set viewController as rootViewController in navigationController
+        navigationController.viewControllers = [viewController]
     }
 }

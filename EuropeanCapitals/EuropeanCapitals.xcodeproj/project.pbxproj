@@ -41,6 +41,7 @@
 		32B9271324EC5D3E006F3FC2 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9271224EC5D3E006F3FC2 /* UIView+Extensions.swift */; };
 		32B9271824EC5DA7006F3FC2 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9271724EC5DA7006F3FC2 /* UITableView+Extensions.swift */; };
 		32B9272024EC5F08006F3FC2 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9271F24EC5F08006F3FC2 /* UIImageView+Extensions.swift */; };
+		32B9272524EEB4BD006F3FC2 /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9272424EEB4BD006F3FC2 /* NiblessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		32B9271224EC5D3E006F3FC2 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		32B9271724EC5DA7006F3FC2 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		32B9271F24EC5F08006F3FC2 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		32B9272424EEB4BD006F3FC2 /* NiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				32B9265E24E2F4C9006F3FC2 /* AppStyling.swift */,
 				32B9266624E2F64E006F3FC2 /* AppCoordinator.swift */,
 				32B9266B24E80668006F3FC2 /* AppString.swift */,
+				32B9272424EEB4BD006F3FC2 /* NiblessViewController.swift */,
 				32B9267024E806CD006F3FC2 /* API */,
 				32B926D224EC52CA006F3FC2 /* Models */,
 				32B926F524EC5A15006F3FC2 /* Managers */,
@@ -447,6 +450,7 @@
 				32B9270924EC5C1C006F3FC2 /* BaseTableViewCell.swift in Sources */,
 				32B926BE24E80CBE006F3FC2 /* ImageCache.swift in Sources */,
 				32B926E424EC5518006F3FC2 /* APIClient.swift in Sources */,
+				32B9272524EEB4BD006F3FC2 /* NiblessViewController.swift in Sources */,
 				32B926D424EC52DA006F3FC2 /* Capital.swift in Sources */,
 				32B9266724E2F64E006F3FC2 /* AppCoordinator.swift in Sources */,
 				32B9270E24EC5C86006F3FC2 /* CityTableViewCell.swift in Sources */,
