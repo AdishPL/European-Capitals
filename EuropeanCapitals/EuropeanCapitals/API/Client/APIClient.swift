@@ -22,7 +22,9 @@ class APIClient: APIClientProtocol {
             var result: APIResult<T>
             
             switch target {
-            case .getCapitals:
+            case .getCapitals,
+                 .getDetails,
+                 .getMoreInfo:
                 result = self.serializedJSON(with: data, error: error)
             case .getImage:
                 result = self.serializedImage(with: data, error: error)
