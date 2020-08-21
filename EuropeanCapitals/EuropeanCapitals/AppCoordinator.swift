@@ -51,12 +51,32 @@ class AppCoordinator: CoordinatorProtocol {
         /// Set viewController as rootViewController in navigationController
         navigationController.viewControllers = [viewController]
     }
+    
+    func showDetailsViewController(withCapital capital: Capital) {
+        /// Initialize viewModel
+        let viewModel = DetailsListViewModel(for: capital)
+        
+        /// Initialize viewController and inject viewModel
+        let viewController = DetailsListViewController(with: viewModel)
+        viewController.delegate = self
+
+        /// Push viewController in navigation stack
+        navigationController.pushViewController(viewController, animated: true)
+    }
 }
 
 // MARK: - MasterListViewControllerDelegate
 
 extension AppCoordinator: MasterListViewControllerDelegate {
     func masterListViewControllerDelegateDidSelectCapital(_ capital: Capital) {
+        showDetailsViewController(withCapital: capital)
+    }
+}
+
+// MARK: - DetailsListViewControllerDelegate
+
+extension AppCoordinator: DetailsListViewControllerDelegate {
+    func detailsListViewControllerDelegateDidSelectMoreInfo(_ info: CityInfo?) {
         #warning("To be implemented")
     }
 }
