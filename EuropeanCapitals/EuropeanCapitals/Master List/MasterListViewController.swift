@@ -16,11 +16,11 @@ final class MasterListViewController: NiblessViewController {
     
     weak var delegate: MasterListViewControllerDelegate?
     
-    private var viewModel: MasterListViewModel!
+    private let viewModel: MasterListViewModel
     
     init(with viewModel: MasterListViewModel) {
-        super.init()
         self.viewModel = viewModel
+        super.init()
     }
     
     override func loadView() {

@@ -52,3 +52,11 @@ class AppCoordinator: CoordinatorProtocol {
         navigationController.viewControllers = [viewController]
     }
 }
+
+// MARK: - MasterListViewControllerDelegate
+
+extension AppCoordinator: MasterListViewControllerDelegate {
+    func masterListViewControllerDelegateDidSelectCapital(_ capital: Capital) {
+        #warning("To be implemented")
+    }
+}
