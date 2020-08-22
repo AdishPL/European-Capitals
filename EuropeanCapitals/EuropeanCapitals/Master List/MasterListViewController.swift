@@ -27,7 +27,7 @@ final class MasterListViewController: NiblessViewController {
         super.loadView()
         
         title = AppStrings.capitals
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = AppStyling.colorWhite
         
         setupTableView()
         setupFavoritesButton()

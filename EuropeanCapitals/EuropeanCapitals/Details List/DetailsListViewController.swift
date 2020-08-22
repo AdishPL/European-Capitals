@@ -28,7 +28,7 @@ final class DetailsListViewController: NiblessViewController {
         
         title = viewModel.name
         
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = AppStyling.colorWhite
         
         setupTableView()
         setupDetailsButton()

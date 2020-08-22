@@ -47,6 +47,7 @@
 		32B9273824F0515E006F3FC2 /* DetailsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9273724F0515E006F3FC2 /* DetailsListViewModel.swift */; };
 		32B9273D24F051C6006F3FC2 /* CapitalDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9273C24F051C6006F3FC2 /* CapitalDetails.swift */; };
 		32B9274224F06234006F3FC2 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9274124F06234006F3FC2 /* DetailsTableViewCell.swift */; };
+		32B9274824F0651F006F3FC2 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9274724F0651F006F3FC2 /* MoreInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		32B9273724F0515E006F3FC2 /* DetailsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsListViewModel.swift; sourceTree = "<group>"; };
 		32B9273C24F051C6006F3FC2 /* CapitalDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalDetails.swift; sourceTree = "<group>"; };
 		32B9274124F06234006F3FC2 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		32B9274724F0651F006F3FC2 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				32B926C224EC393D006F3FC2 /* Font */,
 				32B926C924EC3A86006F3FC2 /* Master List */,
 				32B9272924F01E7E006F3FC2 /* Details List */,
+				32B9274624F0650A006F3FC2 /* More Info */,
 				32B9262824E2F1DD006F3FC2 /* Assets.xcassets */,
 				32B9262A24E2F1DD006F3FC2 /* LaunchScreen.storyboard */,
 				32B9262D24E2F1DD006F3FC2 /* Info.plist */,
@@ -334,6 +337,14 @@
 				32B9273724F0515E006F3FC2 /* DetailsListViewModel.swift */,
 			);
 			path = "Details List";
+			sourceTree = "<group>";
+		};
+		32B9274624F0650A006F3FC2 /* More Info */ = {
+			isa = PBXGroup;
+			children = (
+				32B9274724F0651F006F3FC2 /* MoreInfoViewController.swift */,
+			);
+			path = "More Info";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,6 +510,7 @@
 				32B9267224E806F5006F3FC2 /* APIResourceProtocol.swift in Sources */,
 				32B9268524E8077D006F3FC2 /* APIResource.swift in Sources */,
 				32B9269124E80A75006F3FC2 /* UnsplashService.swift in Sources */,
+				32B9274824F0651F006F3FC2 /* MoreInfoViewController.swift in Sources */,
 				32B926F724EC5A2E006F3FC2 /* FavoritesManagerProtocol.swift in Sources */,
 				32B926B824E80C6E006F3FC2 /* APIError.swift in Sources */,
 			);
