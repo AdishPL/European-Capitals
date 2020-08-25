@@ -44,8 +44,8 @@ class APIClientTests: XCTestCase {
 
         /// Then
         switch result {
-        case .success(let cities):
-            XCTAssertEqual(2, cities.count)
+        case .success(let capitals):
+            XCTAssertEqual(2, capitals.count)
         case .failure(_):
             XCTFail()
         }

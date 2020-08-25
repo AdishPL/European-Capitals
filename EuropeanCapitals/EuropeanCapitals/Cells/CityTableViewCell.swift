@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class CapitalTableViewCell: BaseTableViewCell {
+class CapitalTableViewCell: BaseTableViewCell {
     private let mainImageView = UIImageView()
     private let cityLabel = UILabel()
     private let countryLabel = UILabel()
