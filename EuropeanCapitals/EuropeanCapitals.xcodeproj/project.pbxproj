@@ -165,6 +165,16 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		320E4B4525E29C97003B1717 /* UI Library */ = {
+			isa = PBXGroup;
+			children = (
+				32B9272424EEB4BD006F3FC2 /* NiblessViewController.swift */,
+				32B9265E24E2F4C9006F3FC2 /* AppStyling.swift */,
+				32B9266B24E80668006F3FC2 /* AppString.swift */,
+			);
+			path = "UI Library";
+			sourceTree = "<group>";
+		};
 		32B9261324E2F1DD006F3FC2 = {
 			isa = PBXGroup;
 			children = (
@@ -188,13 +198,10 @@
 		32B9261E24E2F1DD006F3FC2 /* EuropeanCapitals */ = {
 			isa = PBXGroup;
 			children = (
-				32B9270724EC5C0E006F3FC2 /* Cells */,
 				32B9261F24E2F1DD006F3FC2 /* AppDelegate.swift */,
 				32B9262124E2F1DD006F3FC2 /* SceneDelegate.swift */,
-				32B9265E24E2F4C9006F3FC2 /* AppStyling.swift */,
 				32B9266624E2F64E006F3FC2 /* AppCoordinator.swift */,
-				32B9266B24E80668006F3FC2 /* AppString.swift */,
-				32B9272424EEB4BD006F3FC2 /* NiblessViewController.swift */,
+				320E4B4525E29C97003B1717 /* UI Library */,
 				32B9267024E806CD006F3FC2 /* API */,
 				32B926D224EC52CA006F3FC2 /* Models */,
 				32B926F524EC5A15006F3FC2 /* Managers */,
@@ -203,6 +210,7 @@
 				32B926C924EC3A86006F3FC2 /* Master List */,
 				32B9272924F01E7E006F3FC2 /* Details List */,
 				32B9274624F0650A006F3FC2 /* More Info */,
+				32B9270724EC5C0E006F3FC2 /* Cells */,
 				32B9262824E2F1DD006F3FC2 /* Assets.xcassets */,
 				32B9262A24E2F1DD006F3FC2 /* LaunchScreen.storyboard */,
 				32B9262D24E2F1DD006F3FC2 /* Info.plist */,

@@ -63,6 +63,15 @@ class AppCoordinator: CoordinatorProtocol {
         /// Push viewController in navigation stack
         navigationController.pushViewController(viewController, animated: true)
     }
+    
+    func showMoreInfoViewController(withInfo info: CityInfo?) {
+        /// Initialize viewController
+        let viewController = MoreInfoViewController(with: info)
+
+        /// Initialize navigationController and present viewController modally
+        let navigationController = UINavigationController(rootViewController: viewController)
+        self.navigationController.present(navigationController, animated: true, completion: nil)
+    }
 }
 
 // MARK: - MasterListViewControllerDelegate
@@ -77,6 +86,6 @@ extension AppCoordinator: MasterListViewControllerDelegate {
 
 extension AppCoordinator: DetailsListViewControllerDelegate {
     func detailsListViewControllerDelegateDidSelectMoreInfo(_ info: CityInfo?) {
-        #warning("To be implemented")
+        showMoreInfoViewController(withInfo: info)
     }
 }

@@ -18,7 +18,7 @@ class APIClient: APIClientProtocol {
         
         let dataTask = defaultSession.dataTask(
             with: URL(target: target)
-        ) { [unowned self] data, response, error in
+        ) { data, response, error in
             var result: APIResult<T>
             
             switch target {
